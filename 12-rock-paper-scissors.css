@@ -1,0 +1,32 @@
+body{
+  font-family: Arial;
+  color:white;
+  background-color: black;
+}
+.button-container{
+  display:grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-gap:15px;
+}
+.moves-button{
+  background-color:black;
+  border-color: white;
+  border-width: 3px;
+  border-style:solid;
+  border-radius: 100%;
+  margin-bottom:30px;
+  cursor:pointer;
+}
+.moves-images{
+  width: 50px;
+  padding:30px;
+}
+.reset-button, .auto-play-button{
+  color:white;
+  background-color:black;
+  border-color:white;
+  border-style:solid;
+  border-radius:5px;
+  padding:10px;
+  cursor:pointer;
+}
